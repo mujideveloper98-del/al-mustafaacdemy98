@@ -1,0 +1,124 @@
+/* ===== RESET ===== */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+  background-color: #eee;
+}
+
+/* ===== TOP BAR ===== */
+.anav {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  padding: 10px;
+  background: linear-gradient(to bottom, #007bff, #7e57c2);
+  color: white;
+  font-size: 14px;
+}
+
+.c {
+  margin-left: auto;
+}
+
+/* ===== NAVBAR ===== */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background: #f8f8f8;
+}
+
+.logo img {
+  height: 60px;
+}
+
+.nav-links {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.nav-links a {
+  text-decoration: none;
+  font-weight: bold;
+  color: #333;
+}
+
+.apply-button {
+  background: linear-gradient(to right, #007bff, #6a0dad);
+  color: white !important;
+  padding: 8px 16px;
+  border-radius: 5px;
+}
+
+/* ===== HERO ===== */
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  padding: 40px 20px;
+  align-items: center;
+}
+
+.card1,
+.card2 {
+  flex: 1 1 400px;
+}
+
+.card2 img {
+  width: 100%;
+}
+
+/* ===== BUTTONS ===== */
+.arrow,
+.arrow1 {
+  background: #0056b3;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 8px;
+}
+
+/* ===== COURSE CARDS ===== */
+.card10,
+.card20,
+.card30 {
+  flex: 1 1 300px;
+  border: 1px solid #ddd;
+  padding: 20px;
+  border-radius: 15px;
+  text-align: center;
+  background: white;
+}
+
+/* ===== IMAGE SECTION ===== */
+.div {
+  text-align: center;
+  padding: 30px 10px;
+}
+
+.div img {
+  max-width: 100%;
+  margin: 10px;
+}
+
+/* ========================= */
+/* ===== MEDIA QUERIES ===== */
+/* ========================= */
+
+/* 📱 MOBILE */
+@media (max-width: 600px) {
+
+  .navbar {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .nav-links {
+
